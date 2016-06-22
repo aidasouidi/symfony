@@ -1,0 +1,27 @@
+product_homepage:
+    path:     /hello/{nom}
+    defaults: { _controller: ProductBundle:Default:index }
+product_index:
+    path:     /symfony
+    defaults: { _controller: ProductBundle:Default:myfirstPage }
+product_perimetre:
+    path:     /calcul/{long}/{larg}
+    defaults: { _controller: ProductBundle:Calcul:perimetre }
+product_ajout:
+    path:     /type/ajout
+    defaults: { _controller: ProductBundle:Ajout:ajouterType }
+product_affiche:
+    path:     /type/affiche
+    defaults: { _controller: ProductBundle:Affiche:afficherType }
+product_ajoutProduit:
+    path:     /admin/produit/ajout
+    defaults: { _controller: ProductBundle:Produit:ajouterProduit }
+product_afficheProduit:
+    path:     /produit/affiche
+    defaults: { _controller: ProductBundle:Produit:afficherProduit }
+product_modifProduit:
+    path:     /produit/modif/{id}
+    defaults: { _controller: ProductBundle:Produit:modifierProduit }
+product_suppProduit:
+    path:     /produit/supprimer/{id}
+    defaults: { _controller: ProductBundle:Produit:supprimerProduit }

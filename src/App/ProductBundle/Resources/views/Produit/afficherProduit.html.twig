@@ -1,0 +1,31 @@
+{% extends "ProductBundle::layout.html.twig" %}
+{% block title %} affichage des produits{% endblock %}
+{% block body %}
+    <a href="{{ path('product_ajoutProduit') }}">Ajout Produit</a>
+<table>
+    <tr>
+        <td>Identifiant</td>
+        <td>Nom</td>
+        <td>Prix</td>
+        <td>Date Livraison</td>
+        <td>description</td>
+        <td>type</td>
+        <td></td>
+        <td></td>
+    </tr>
+    {% for p in produit %}    
+        <tr>
+            <td>{{p.id}}</td>
+            <td>{{p.nom}}</td>
+            <td>{{p.prix}}</td>
+            <td>{{p.dateLivraison|date('d/M/Y')}}</td>
+            <td>{{p.description}}</td>
+            <td>{{p.type.nom}}</td>
+            <td><a href="{{path('product_modifProduit',{'id':p.id})}}">Modifier</a></td>
+            <td><a href="{{path('product_suppProduit',{'id':p.id})}}">Supprimer</a></td>
+        </tr>
+    {% endfor %}
+</table>
+    
+    
+{% endblock %}

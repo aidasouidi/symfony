@@ -1,0 +1,67 @@
+{% extends "ProductBundle::layout.html.twig" %}
+{% block title %} modif des produits{% endblock %}
+{% block body %} 
+    {{message}}
+    <form method="post" action="" >
+    <table>
+        <tr>
+            <td>
+                {{form_label(f.nom)}}
+
+            </td>
+
+            <td>
+                {{form_widget(f.nom)}}
+                {{form_errors(f.nom)}}
+            </td>
+        </tr>
+        <tr>
+
+            <td>
+                {{form_label(f.prix)}}
+
+            </td>
+
+            <td>
+                {{form_widget(f.prix)}}
+                {{form_errors(f.prix)}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                {{form_label(f.dateLivraison)}}
+
+            </td>
+
+            <td>
+                {{form_widget(f.dateLivraison)}}
+                {{form_errors(f.dateLivraison)}}
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                {{form_label(f.description)}}
+
+            </td>
+            <td>
+                {{form_widget(f.description)}}
+                {{form_errors(f.description)}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                {{form_label(f.type)}}
+
+            </td>
+            <td>
+                {{form_widget(f.type)}}
+                {{form_errors(f.type)}}
+            </td>
+        </tr>
+    </table>
+    <input type="submit"/>
+    {{form_rest(f)}}
+            
+</form>           
+{% endblock %}
+    

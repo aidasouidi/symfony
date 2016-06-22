@@ -1,0 +1,16 @@
+{% extends "ProductBundle::layout.html.twig" %}
+{% block title %} affichage des types{% endblock %}
+{% block body %}
+<table>
+    <tr>
+        <td>Identifiant</td>
+        <td>Nom</td>
+    </tr>
+    {% for t in type %}    
+        <tr>
+            <td>{{t.id}}</td>
+            <td>{{t.nom}}</td> 
+        </tr>
+    {% endfor %}
+</table>
+{% endblock %}

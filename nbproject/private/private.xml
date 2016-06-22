@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp/www/applicationsymfony/src/App/ProductBundle/Repository/ProduitRepository.php</file>
+            <file>file:/C:/wamp/www/applicationsymfony/src/App/ProductBundle/Resources/views/Type/afficherType.html.twig</file>
+            <file>file:/C:/wamp/www/applicationsymfony/src/App/ProductBundle/Resources/views/Produit/supprimerProduit.twig</file>
+            <file>file:/C:/wamp/www/applicationsymfony/src/App/ProductBundle/Resources/views/Produit/afficherProduit.html.twig</file>
+            <file>file:/C:/wamp/www/applicationsymfony/src/App/ProductBundle/Controller/ProduitController.php</file>
+            <file>file:/C:/wamp/www/applicationsymfony/src/App/ProductBundle/Resources/views/Produit/modifierProduit.html.twig</file>
+            <file>file:/C:/wamp/www/applicationsymfony/src/App/ProductBundle/Resources/views/Produit/ajouterProduit.html.twig</file>
+            <file>file:/C:/wamp/www/applicationsymfony/src/App/ProductBundle/Controller/AfficheController.php</file>
+            <file>file:/C:/wamp/www/applicationsymfony/src/App/ProductBundle/Resources/views/Type/ajouterType.html.twig</file>
+            <file>file:/C:/wamp/www/applicationsymfony/src/App/ProductBundle/Controller/AjoutController.php</file>
+        </group>
+    </open-files>
+</project-private>
